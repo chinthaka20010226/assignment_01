@@ -294,6 +294,153 @@ header {
     color: rgb(0, 0, 0);
 }
 
+/* Facilities */
+.facilities {
+    width: 100%;
+    padding: 80px;
+    
+}
+.facilities h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1;
+    padding-bottom: 40px;
+}
+.facilities .facilities-content div {
+    width: 40%;
+    margin: 0px 20px;
+}
+.facilities .facilities-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(245, 241, 241);
+    border: 1px solid rgb(229, 226, 226);
+}
+.facilities .facilities-content .facilities-content-list {
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+}
+.facilities .facilities-content .facilities-content-list img {
+    width: 450px;
+}
+.facilities .facilities-content .facilities-content-list h3 {
+    padding: 20px 0px;
+}
+.facilities .facilities-content .facilities-content-list .btn {
+    width: 100%;
+    margin: 10px auto;
+}
+.facilities .facilities-content .facilities-content-list .btn a {
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-bottom: 2px solid #03dffc;
+    font-size: 13px;
+}
+
+/* Offers */
+.facilities #sub-title {
+    font-size: 30px;
+}
+.facilities #offers {
+    background-color: white;
+}
+.facilities .facilities-content .facilities-content-list p {
+    padding: 10px;
+}
+
+/* Contact */
+.contact-content {
+    width: 100%;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-content h3 {
+    font-size: 40px;
+    padding: 50px 0px;
+}
+.contact-content .contact-content-way {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid rgb(229, 226, 226);
+}
+.contact-content .contact-content-way .way {
+    width: 50%;
+    padding: 0px 40px;
+}
+.contact-content .contact-content-way #way-01 {
+    border-right: 1px solid rgb(229, 226, 226);
+    padding-left: 250px;
+}
+.contact-content .contact-content-way .way p {
+    padding: 10px 20px;
+}
+.contact-content .contact-content-para {
+    width: 100%;
+    padding: 50px 0px;
+}
+.contact-content .contact-content-para p {
+    line-height: 1.3em;
+}
+.contact-content .contact-content-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(229, 226, 226);
+    padding: 40px 100px;
+}
+.contact-content .contact-content-input .input {
+    width: 100%;
+    padding: 20px;
+}
+.contact-content .contact-content-input .input p {
+    padding: 5px;
+}
+.contact-content .contact-content-input .input input {
+    margin-left: 5px;
+    padding: 5px 200px;
+}
+.contact-content .contact-content-input .email-phone {
+    display: flex;
+}
+.contact-content .contact-content-input .email-phone .contact-01 {
+    width: 50%;
+}
+.contact-content .contact-content-input .email-phone .contact-01 input {
+    padding: 5px 50px;
+}
+.contact-content .contact-content-input .input textarea {
+    margin-left: 5px;
+    padding: 5px 200px;
+}
+.contact-content .contact-content-input .react {
+    display: flex;
+    align-items: center;
+}
+.contact-content .contact-content-input .react #okay {
+    color: whitesmoke;
+    background-color: #03dffc;
+    padding: 8px 40px;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+    font-size: bold;
+}
+.contact-content .contact-content-input .react .btn a {
+    padding-left: 20px;
+    color: #000000;
+}
+
+
 /* Bottom */
 .bottom {
     width: 100%;
