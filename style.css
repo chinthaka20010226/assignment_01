@@ -21,15 +21,32 @@ section {
 }
 
 /* Header */
-header {
+.head {
     width: 100%;
     height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one {
     background: url('./pexels-photo-453201.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
-    align-items: center;
-    justify-content: center;
+}
+.two {
+    background: url('./pexels-photo-941861.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.three {
+    background: url('./pexels-photo-261108.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.four {
+    background: url('./pexels-photo-9521496.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Navigation */
@@ -350,6 +367,75 @@ header {
 }
 .facilities .facilities-content .facilities-content-list p {
     padding: 10px;
+}
+.accomadation {
+    width: 100%;
+    padding: 50px 100px;
+}
+.accomadation h3 {
+    font-size: 30px;
+    font-weight: 1;
+    padding: 20px 0px;
+}
+.accomadation .accomadation-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -20px;
+}
+.accomadation .accomadation-content .accomadation-content-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid rgb(229, 226, 226);
+    text-align: left;
+    background-color: rgb(245, 241, 241);
+}
+.accomadation .accomadation-content .accomadation-content-box .accomadation-content-box-img {
+    width: 100%;
+    height: 200px;
+}
+.accomadation .accomadation-content .accomadation-content-box #img-01 {
+    background: url('./Mobile-Offer-HK.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.accomadation .accomadation-content .accomadation-content-box #img-02 {
+    background: url('./Member-Offer-HK.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.accomadation .accomadation-content .accomadation-content-box #img-03 {
+    background: url('./Honeymoon-Offer.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.accomadation .accomadation-content .accomadation-content-box .accomadation-content-text {
+    width: 100%;
+    padding: 30px;
+} 
+.accomadation .accomadation-content .accomadation-content-box .accomadation-content-text h4 {
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 1;
+}
+.accomadation .accomadation-content .accomadation-content-box .accomadation-content-text p {
+    padding: 20px 0px;
+    line-height: 1.2em;
+    font-weight: 1;
+}
+.accomadation .accomadation-content .accomadation-content-box .accomadation-content-btn {
+    padding: 20px 0px;
+}
+.accomadation .accomadation-content .accomadation-content-box .accomadation-content-btn a {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    color: #c4c4c4;
+    font-weight: 1;
 }
 
 /* Contact */
